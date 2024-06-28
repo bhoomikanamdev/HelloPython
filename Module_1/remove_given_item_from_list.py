@@ -1,7 +1,7 @@
 input1 = input()
 item = input()
 tup=tuple(input1.split(","))
-#print(tup)
+print(tup)
 result=list(tup)
 #print(result)
 result.remove(item)

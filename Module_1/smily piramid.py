@@ -1,4 +1,11 @@
+def smiley_pyramid(rows):
+   smiley = "😊"
+   for i in range(1, rows + 1):
+      # Print spaces for alignment
+      print(' ' * (rows - i), end='')
+      # Print smileys
+      print(smiley * i)
 
-for i in range(3):
-   for j in range(2):
-      print(i*j)
+
+# Example usage:
+smiley_pyramid(5)
