@@ -44,7 +44,7 @@ output_str = ""
 for char, count in count_dict.items():
     output_str += char + str(count)
 
-print(output_str)'''
+print(output_str)
 
 
 strings = [
@@ -56,4 +56,6 @@ strings = [
 
 for s in strings:
     result = s.split('_')[0]
-    print(result)
+    print(result)'''
+
+
